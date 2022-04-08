@@ -1,6 +1,8 @@
-import React, {useState} from 'react';
-
+import React from 'react';
+import {action} from "@storybook/addon-actions";
 import {UncontrolledAccordion } from './UncontrolledAccordion';
+
+const callback = action("on or off clicked")
 
 
 export default {
@@ -8,9 +10,6 @@ export default {
     component: UncontrolledAccordion,
 }
 
-
-
-
-export const CollapsedOFF = () => <UncontrolledAccordion titleValue={'x'}/>
+export const ModeChanging = () => <UncontrolledAccordion titleValue={'x'}/>
 
 
