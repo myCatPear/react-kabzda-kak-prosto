@@ -13,7 +13,6 @@ export default {
 export const offMode = () => <UncontrolledOnOff onChange={callback} defaultOn={false}/>
 export const onMode = () => <UncontrolledOnOff onChange={callback} defaultOn={true}/>
 export const BugMode = () => <div>Unsync when change defaultValue when already rendered</div>
-export const DefaultInputValue = () => <input defaultValue={'yo'}/>
 
 
 
